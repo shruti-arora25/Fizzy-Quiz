@@ -25,11 +25,14 @@
 
                 <android.widget.Button
 
-                    style="@style/Widget.AppCompat.Button"
+                    style="@style/circleImageView"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Daily" />
+                    android:textColor="@color/navy_blue"
+                    android:text="Daily"
+                    android:layout_marginEnd="8dp"
+                    android:background="@color/orange"/>
 
                 <android.widget.Button
 
@@ -37,7 +40,11 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Monthly" />
+                    android:text="Monthly"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="@color/white"
+                    android:textColor="@color/navy_blue"/>
 
 
                 <android.widget.Button
@@ -46,8 +53,35 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="All Time" />
+                    android:text="All Time"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="24dp"
+                    android:background="@color/white"
+                    android:textColor="@color/navy_blue"/>
 
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/baseline_person_24"
+                        />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
 
 
             </LinearLayout>
