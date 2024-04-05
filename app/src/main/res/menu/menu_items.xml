@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Home"
+
+        android:iconTint="@color/white"/>
+
+ <item
+        android:id="@+id/board"
+        android:icon="@drawable/baseline_dashboard_24"
+        android:title="Dashboard"
+        android:iconTint="@color/white"/>
+ <item
+        android:id="@+id/favorites"
+        android:icon="@drawable/baseline_favorite_border_24"
+        android:title="Favorites"
+        android:iconTint="@color/white"/>
+ <item
+        android:id="@+id/profile"
+        android:icon="@drawable/baseline_person_24"
+        android:title="Profile"
+        android:iconTint="@color/white"/>
+
+
+</menu>
