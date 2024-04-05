@@ -21,7 +21,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginStart="24dp"
-                android:layout_marginTop="19dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginEnd="24dp"
                 android:orientation="horizontal">
 
@@ -89,7 +89,9 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="24dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginTop="10dp"
                 android:orientation="horizontal">
 
 
@@ -178,7 +180,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp">
 
 
                 <TextView
@@ -237,7 +240,7 @@
                         android:layout_marginEnd="8dp"
                         android:layout_weight="1"
                         android:text="SCIENCE"
-                        android:textSize="17sp"
+                        android:textSize="15sp"
                          />
                 </LinearLayout>
 
@@ -266,7 +269,7 @@
                         android:layout_marginStart="16dp"
                         android:layout_weight="1"
                         android:text="MATHS"
-                        android:textSize="17sp"
+                        android:textSize="15sp"
                  />
 
 
@@ -304,7 +307,7 @@
                         android:layout_marginEnd="8dp"
                         android:layout_weight="1"
                         android:text="COMPUTER"
-                        android:textSize="17sp"
+                        android:textSize="15sp"
                      />
                 </LinearLayout>
 
@@ -334,7 +337,7 @@
                         android:layout_marginStart="16dp"
                         android:layout_weight="1"
                         android:text="ENGLISH"
-                        android:textSize="17sp"
+                        android:textSize="15sp"
                  />
 
                 </LinearLayout>
@@ -365,7 +368,7 @@
                     android:layout_margin="18dp"
                     android:text="Try your luck\n to get more score!"
                     android:textColor="@color/white"
-                    android:textSize="20sp"
+                    android:textSize="18sp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -386,8 +389,10 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-
-
+<com.google.android.material.bottomnavigation.BottomNavigationView
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    app:menu="@menu/menu_items"/>
 
 
 

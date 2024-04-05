@@ -43,7 +43,6 @@ dependencies {
 
     implementation("de.hdodenhof:circleimageview:3.1.0")
 
-    implementation("com.github.ismaeldivita:chip-navigation-bar:1.4.0")
 
 
 
