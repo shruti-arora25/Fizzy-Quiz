@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".Fragments.SignIn">
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_margin="5dp"
-        android:orientation="vertical">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5dp">
 
 
     <TextView
@@ -28,82 +24,76 @@
         android:orientation="vertical"
         android:padding="5dp">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="55dp">
-
-
-        <EditText
-            android:id="@+id/enailLogin"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:textSize="20sp"
-            android:padding="10dp"
-            android:hint="username"
-            android:drawablePadding="10dp"
-            android:drawableTint="@color/blueGreen"
-            android:drawableLeft="@drawable/baseline_email_24"
-
-            android:background="@drawable/text_bg"
-            android:inputType="textEmailAddress" />
-
-    </LinearLayout>
+            android:layout_marginTop="55dp">
 
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
-        android:layout_marginBottom="30dp">
+            <EditText
+                android:id="@+id/enailLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text_bg"
+                android:drawableLeft="@drawable/baseline_email_24"
+                android:drawablePadding="10dp"
+                android:drawableTint="@color/blueGreen"
+                android:ems="10"
+                android:hint="username"
+                android:inputType="textEmailAddress"
+
+                android:padding="10dp"
+                android:textSize="20sp" />
+
+        </LinearLayout>
 
 
-
-        <EditText
-            android:id="@+id/passwordLogin"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:textSize="20sp"
-            android:padding="10dp"
-            android:background="@drawable/text_bg"
-            android:hint="password"
-            android:drawablePadding="10dp"
-            android:drawableTint="@color/blueGreen"
-            android:drawableLeft="@drawable/baseline_lock_24"
-            android:inputType="textPassword" />
+            android:layout_marginTop="28dp"
+            android:layout_marginBottom="30dp">
 
 
-    </LinearLayout>
+            <EditText
+                android:id="@+id/passwordLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text_bg"
+                android:drawableLeft="@drawable/baseline_lock_24"
+                android:drawablePadding="10dp"
+                android:drawableTint="@color/blueGreen"
+                android:ems="10"
+                android:hint="password"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:textSize="20sp" />
 
 
+        </LinearLayout>
 
-    <android.widget.Button
-        android:id="@+id/signIn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:gravity="center"
-        android:padding="2dp"
-        android:background="@drawable/background"
-        android:text="Sign In"
-        android:textSize="25sp"
-        android:layout_marginTop="11dp"
-        />
+
+        <android.widget.Button
+            android:id="@+id/signIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_marginTop="11dp"
+            android:background="@drawable/background"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="Sign In"
+            android:textSize="25sp" />
 
         <android.widget.Button
             android:id="@+id/createAccount"
-            android:layout_marginTop="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Create an Account "
-            />
+            android:layout_marginTop="20dp"
+            android:text="Create an Account " />
 
     </LinearLayout>
 
-    </LinearLayout>
+</LinearLayout>
 
 
-
-</layout>
