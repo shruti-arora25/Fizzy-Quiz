@@ -1,6 +1,5 @@
 package com.example.fizzyquiz
 
-import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.core.content.ContextCompat
@@ -18,6 +17,8 @@ class MainActivity : AppCompatActivity() {
 
         val window = this@MainActivity.window
         window.statusBarColor = ContextCompat.getColor(this@MainActivity, R.color.light_grey)
+
+
 
 
 

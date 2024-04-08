@@ -5,28 +5,22 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.fizzyquiz.databinding.FragmentLeaderPageBinding
+import com.example.fizzyquiz.R
 
-
-class LeaderPage : Fragment() {
-
-
-    private lateinit var bind:FragmentLeaderPageBinding
+class SignUp : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
     }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-
-        bind= FragmentLeaderPageBinding.inflate(layoutInflater,container,false)
-        return bind.root
-
+        // Inflate the layout for this fragment
+        return inflater.inflate(R.layout.fragment_signup, container, false)
     }
-
 
 
 }

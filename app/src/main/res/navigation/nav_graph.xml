@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/signUp">
+
+    <fragment
+        android:id="@+id/signUp"
+        android:name="com.example.fizzyquiz.Fragments.SignUp"
+        android:label="fragment_signup"
+        tools:layout="@layout/fragment_signup" >
+        <action
+            android:id="@+id/action_signUp_to_signIn2"
+            app:destination="@id/signIn2" />
+    </fragment>
+    <fragment
+        android:id="@+id/signIn2"
+        android:name="com.example.fizzyquiz.Fragments.SignIn"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in" >
+        <action
+            android:id="@+id/action_signIn2_to_signUp"
+            app:destination="@id/signUp" />
+        <action
+            android:id="@+id/action_signIn2_to_leaderPage"
+            app:destination="@id/leaderPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/leaderPage"
+        android:name="com.example.fizzyquiz.Fragments.LeaderPage"
+        android:label="fragment_leader_page"
+        tools:layout="@layout/fragment_leader_page" />
+</navigation>

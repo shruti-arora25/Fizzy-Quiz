@@ -9,4 +9,7 @@
     <color name="light_grey">#F3F0F5</color>
     <color name="dark_purple">#21232B</color>
     <color name="light_purple">#423B62</color>
+    <color name="yellow">#F0BB4F</color>
+    <color name="blueGreen">#75E6DA</color>
+
 </resources>
